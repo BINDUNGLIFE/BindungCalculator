@@ -1,3 +1,5 @@
+import Foundation
+
 class Calculator {
     func add(_ a: Double, _ b: Double) -> Double {
         return a + b
@@ -39,5 +41,3 @@ print("곱하기 결과: \(multiplicationResult)")
 if let divisionResult = calculator.divide(10.0, 5.0) {
     print("나누기 결과: \(divisionResult)")
 }
-
-
